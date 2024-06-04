@@ -15,9 +15,9 @@ All data has been processed automatically, based on the OCRed phone book data. O
 - Mixing advertisment with phone number entries.
 
 As a consequence, three different batches have been built:
-A – Data from the beginning to 1910: Data on the level of pages
-B – Data from 1911 to 1937: Data on the level of segmented entries
-C – Data from 1938 to 1950: Data on the level of unsegmented entries
+- A – Data from the beginning to 1910: Data on the level of pages
+- B – Data from 1911 to 1937: Data on the level of segmented entries
+- C – Data from 1938 to 1950: Data on the level of unsegmented entries
 
 <h2>Application</h2>
 

@@ -9,11 +9,16 @@ The aim is to make historical data accessible to a broad public.
 This repository contains the basis of historic.localsearch.ch.
 All tsv are in the folder "tsv". The tsv can be loaded to the SQL-DB.
 
-All data has been processed automatically, based on the OCRed phone book data. OCR errors are to be expected on several levels
+All data has been processed automatically, based on the OCRed phone book data. OCR errors are to be expected on several levels:
 - Error in recognized characters (no specific training for used printings)
 - Error in the layout identification. In several cases the columns have not been correctly identified, mixing the entries
 - Mixing advertisment with phone number entries.
 
+As a consequence, three different batches have been built:
+A – Data from the beginning to 1910: Data on the level of pages
+B – Data from 1911 to 1937: Data on the level of segmented entries
+C – Data from 1938 to 1950: Data on the level of unsegmented entries
+The data is split into chunks. The file name contains the batch (a to c) and a running number.
 
 <h2>Application</h2>
 
